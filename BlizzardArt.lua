@@ -120,8 +120,91 @@ function BlizzardArt:ApplyConfig()
 		self.barTex3:SetTexture("Interface\\MainMenuBar\\UI-MainMenuBar-Dwarf")
 	end
 
+	local SF_PATH = "Interface\\AddOns\\Bartender4\\skins\\SquidFrame\\"
+
 	if config.leftCap == "NONE" then -- No left cap
 		self.leftCap:Hide()
+	elseif config.leftCap == "SF_CASTERS" then
+		self.leftCap:SetTexture(SF_PATH.."casters")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_DEATHKNIGHT" then
+		self.leftCap:SetTexture(SF_PATH.."deathknight")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_DEATHKNIGHT2" then
+		self.leftCap:SetTexture(SF_PATH.."deathknight2")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_DEATHKNIGHT2BLACK" then
+		self.leftCap:SetTexture(SF_PATH.."deathknight2black")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_DIABLO1" then
+		self.leftCap:SetTexture(SF_PATH.."diablo1")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_DIABLO1_ROTH" then
+		self.leftCap:SetTexture(SF_PATH.."diablo1_roth")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_DIABLO2" then
+		self.leftCap:SetTexture(SF_PATH.."diablo2")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_DIABLO2_ROTH" then
+		self.leftCap:SetTexture(SF_PATH.."diablo2_roth")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_DWARF" then
+		self.leftCap:SetTexture(SF_PATH.."dwarf")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_GHOUL" then
+		self.leftCap:SetTexture(SF_PATH.."ghoul")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_GNOME" then
+		self.leftCap:SetTexture(SF_PATH.."gnome")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_GRIFFON" then
+		self.leftCap:SetTexture(SF_PATH.."griffon")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_GUARDIAN" then
+		self.leftCap:SetTexture(SF_PATH.."guardian")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_HUMAN" then
+		self.leftCap:SetTexture(SF_PATH.."human")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_JAEDEN" then
+		self.leftCap:SetTexture(SF_PATH.."jaeden")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_LION" then
+		self.leftCap:SetTexture(SF_PATH.."lion")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_MURLOC1" then
+		self.leftCap:SetTexture(SF_PATH.."murloc1")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_MURLOC2" then
+		self.leftCap:SetTexture(SF_PATH.."murloc2")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_NIGHTELF" then
+		self.leftCap:SetTexture(SF_PATH.."nightelf")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_ORC" then
+		self.leftCap:SetTexture(SF_PATH.."orc")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_OCTOPUS" then
+		self.leftCap:SetTexture(SF_PATH.."octopus")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_PATCHWORK" then
+		self.leftCap:SetTexture(SF_PATH.."patchwork")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_SKULL" then
+		self.leftCap:SetTexture(SF_PATH.."skull")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_T3WARRIOR" then
+		self.leftCap:SetTexture(SF_PATH.."t3warrior")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_TAUREN" then
+		self.leftCap:SetTexture(SF_PATH.."tauren")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_TROLL" then
+		self.leftCap:SetTexture(SF_PATH.."troll")
+		self.leftCap:Show()
+	elseif config.leftCap == "SF_WHELP" then
+		self.leftCap:SetTexture(SF_PATH.."whelp")
+		self.leftCap:Show()
 	elseif config.leftCap == "HUMAN" then -- Lion
 		self.leftCap:SetTexture("Interface\\MainMenuBar\\UI-MainMenuBar-EndCap-Human")
 		self.leftCap:Show()
@@ -129,8 +212,89 @@ function BlizzardArt:ApplyConfig()
 		self.leftCap:SetTexture("Interface\\MainMenuBar\\UI-MainMenuBar-EndCap-Dwarf")
 		self.leftCap:Show()
 	end
+
 	if config.rightCap == "NONE" then -- No right cap
 		self.rightCap:Hide()
+	elseif config.rightCap == "SF_CASTERS" then
+		self.rightCap:SetTexture(SF_PATH.."casters")
+		self.rightCap:Show()
+	elseif config.rightCap == "SF_DEATHKNIGHT" then
+		self.rightCap:SetTexture(SF_PATH.."deathknight")
+		self.rightCap:Show()
+	elseif config.rightCap == "SF_DEATHKNIGHT2" then
+		self.rightCap:SetTexture(SF_PATH.."deathknight2")
+		self.rightCap:Show()
+	elseif config.rightCap == "SF_DEATHKNIGHT2BLACK" then
+		self.rightCap:SetTexture(SF_PATH.."deathknight2black")
+		self.rightCap:Show()
+	elseif config.rightCap == "SF_DIABLO1" then
+		self.rightCap:SetTexture(SF_PATH.."diablo1")
+		self.rightCap:Show()
+	elseif config.rightCap == "SF_DIABLO1_ROTH" then
+		self.rightCap:SetTexture(SF_PATH.."diablo1_roth")
+		self.rightCap:Show()
+	elseif config.rightCap == "SF_DIABLO2" then
+		self.rightCap:SetTexture(SF_PATH.."diablo2")
+		self.rightCap:Show()
+	elseif config.rightCap == "SF_DIABLO2_ROTH" then
+		self.rightCap:SetTexture(SF_PATH.."diablo2_roth")
+		self.rightCap:Show()
+	elseif config.rightCap == "SF_DWARF" then
+		self.rightCap:SetTexture(SF_PATH.."dwarf")
+		self.rightCap:Show()
+	elseif config.rightCap == "SF_GHOUL" then
+		self.rightCap:SetTexture(SF_PATH.."ghoul")
+		self.rightCap:Show()
+	elseif config.rightCap == "SF_GNOME" then
+		self.rightCap:SetTexture(SF_PATH.."gnome")
+		self.rightCap:Show()
+	elseif config.rightCap == "SF_GRIFFON" then
+		self.rightCap:SetTexture(SF_PATH.."griffon")
+		self.rightCap:Show()
+	elseif config.rightCap == "SF_GUARDIAN" then
+		self.rightCap:SetTexture(SF_PATH.."guardian")
+		self.rightCap:Show()
+	elseif config.rightCap == "SF_HUMAN" then
+		self.rightCap:SetTexture(SF_PATH.."human")
+		self.rightCap:Show()
+	elseif config.rightCap == "SF_JAEDEN" then
+		self.rightCap:SetTexture(SF_PATH.."jaeden")
+		self.rightCap:Show()
+	elseif config.rightCap == "SF_LION" then
+		self.rightCap:SetTexture(SF_PATH.."lion")
+		self.rightCap:Show()
+	elseif config.rightCap == "SF_MURLOC1" then
+		self.rightCap:SetTexture(SF_PATH.."murloc1")
+		self.rightCap:Show()
+	elseif config.rightCap == "SF_MURLOC2" then
+		self.rightCap:SetTexture(SF_PATH.."murloc2")
+		self.rightCap:Show()
+	elseif config.rightCap == "SF_NIGHTELF" then
+		self.rightCap:SetTexture(SF_PATH.."nightelf")
+	elseif config.rightCap == "SF_OCTOPUS" then
+		self.rightCap:SetTexture(SF_PATH.."octopus")
+		self.rightCap:Show()
+	elseif config.rightCap == "SF_ORC" then
+		self.rightCap:SetTexture(SF_PATH.."orc")
+		self.rightCap:Show()
+	elseif config.rightCap == "SF_PATCHWORK" then
+		self.rightCap:SetTexture(SF_PATH.."patchwork")
+		self.rightCap:Show()
+	elseif config.rightCap == "SF_SKULL" then
+		self.rightCap:SetTexture(SF_PATH.."skull")
+		self.rightCap:Show()
+	elseif config.rightCap == "SF_T3WARRIOR" then
+		self.rightCap:SetTexture(SF_PATH.."t3warrior")
+		self.rightCap:Show()
+	elseif config.rightCap == "SF_TAUREN" then
+		self.rightCap:SetTexture(SF_PATH.."tauren")
+		self.rightCap:Show()
+	elseif config.rightCap == "SF_TROLL" then
+		self.rightCap:SetTexture(SF_PATH.."troll")
+		self.rightCap:Show()
+	elseif config.rightCap == "SF_WHELP" then
+		self.rightCap:SetTexture(SF_PATH.."whelp")
+		self.rightCap:Show()
 	elseif config.rightCap == "HUMAN" then -- Lion
 		self.rightCap:SetTexture("Interface\\MainMenuBar\\UI-MainMenuBar-EndCap-Human")
 		self.rightCap:Show()
